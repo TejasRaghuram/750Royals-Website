@@ -1,0 +1,71 @@
+#bio_container {
+    width: 250px;
+    height: 250px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+    position: relative;
+}
+
+#bio_image {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+    filter: saturate(0%);
+    transition: filter 1s;
+    position: absolute;
+}
+
+#bio_container:hover #bio_image {
+    filter: none;
+}
+
+#bio_image_filter {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+    position: absolute;
+    transition: opacity 0.25s;
+}
+
+#bio_container:hover #bio_image_filter {
+    opacity: 0;
+}
+
+#bio_name {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#bio_class {
+    top: 40px;
+}
+
+#bio_role {
+    text-transform: uppercase;
+    top: 20px;
+}
+
+.bio_text {
+    font-size: 16.5px;
+    left: 10px;
+    margin-top: 175px;
+    color: transparent;
+    font-family: "Poppins";
+    position: absolute;
+    transition-property: color, text-shadow, transform;
+    transition-duration: 0.25s;
+    transform: translateY(20%);
+}
+
+#bio_container:hover .bio_text {
+    color: white;
+    text-shadow: 0 0 10px black, 0 0 10px black, 0 0 10px black, 0 0 10px black;
+    transform: translateY(0%);
+}

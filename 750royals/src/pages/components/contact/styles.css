@@ -1,0 +1,85 @@
+.form_input {
+    width: 70vw;
+    height: 30px;
+    bottom: 30px;
+    margin-left: calc(15vw - 25px);
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+    padding: 5px 25px;
+    position: relative;
+    font-size: 18px;
+    font-family: "Poppins";
+    color: white;
+    background-color: rgb(50, 50, 50);
+}
+
+.form_input::-webkit-input-placeholder {
+    font-weight: bold;
+}
+
+.form_input::-moz-placeholder {
+    font-weight: bold;
+}
+
+.form_input::-ms-input-placeholder {
+    font-weight: bold;
+}
+
+.form_input::-o-input-placeholder {
+    font-weight: bold;
+}
+
+#form_message {
+    width: 70vw;
+    height: 400px;
+    position: relative;
+    margin-left: calc(15vw - 25px);
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+    padding: 15px 25px;
+    font-size: 18px;
+    font-family: "Poppins";
+    color: white;
+    background-color: rgb(50, 50, 50);
+    border-width: 2px;
+}
+
+#form_message::-webkit-input-placeholder {
+    font-weight: bold;
+}
+
+#form_message::-moz-placeholder {
+    font-weight: bold;
+}
+
+#form_message::-ms-input-placeholder {
+    font-weight: bold;
+}
+
+#form_message::-o-input-placeholder {
+    font-weight: bold;
+}
+
+#form_submit {
+    width: 200px;
+    height: 60px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: calc(85vw - 175px);
+    background-color: rgb(255, 47, 47);
+    border-radius: 10px;
+    border-color: transparent;
+    font-family: "Poppins";
+    color: rgb(175, 175, 175);
+    font-weight: bold;
+    font-size: 24px;
+    position: relative;
+    box-shadow: 0px 0px 10px 1px black;
+    transition: color 0.25s;
+}
+
+#form_submit:hover {
+    color: white;
+}
